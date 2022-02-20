@@ -3,11 +3,6 @@ import './App.css';
 import Accordion from "./components/Accordion";
 import {Rating as R} from "./components/Rating/Rating";
 
-// function hello() {
-//     alert('IT-KAMASUTRA')
-// }
-//
-// hello();
 
 function App() {
     console.log('App rendering')
@@ -17,8 +12,8 @@ function App() {
             <PageTitle title={'My friend'} />
             Article 1
             <R value={3} />
-            <Accordion titleValue={'Menu'} collapsed={true}/>
-            <Accordion titleValue={'Users'} collapsed={false}/>
+            <Accordion titleValue={'Menu'} collapsed={false}/>
+            <Accordion titleValue={'Users'} collapsed={true}/>
             Article 2
             <R value={5} />
             <R value={4} />
