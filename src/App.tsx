@@ -12,18 +12,17 @@ function App() {
         <div className={'container'}>
             <PageTitle title={'React Course'}/>
             <div>
-                Article 1
+                Are you enjoying the course?
                 <R/>
             </div>
             <Accordion titleValue={'Learn'}/>
             <Accordion titleValue={'Create'}/>
             <div>
-                Article 2
+                Challenging tasks
                 <R/>
+                Valuable material
                 <R/>
-                <R/>
-                <R/>
-                <R/>
+                Support access
                 <R/>
             </div>
             <SwitchButton/>
