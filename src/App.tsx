@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Accordion from "./components/Accordion";
+import Accordion from "./components/Accordion/Accordion";
 import PageTitle from './components/PageTitle';
 import {Rating as R} from "./components/Rating/Rating";
 import SwitchButton from './components/SwitchButton';
