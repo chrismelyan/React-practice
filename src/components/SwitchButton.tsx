@@ -1,7 +1,6 @@
 import React, {MouseEvent, useState} from 'react';
 
 type SwitchButtonType = {
-
 }
 
 const SwitchButton = (props: SwitchButtonType) => {

@@ -9,7 +9,7 @@ type AccordionPropsType = {
 function Accordion(props: AccordionPropsType) {
     let [collapsed, setCollapsed] = useState(true)
 
-    const onCLickHandler = () => setCollapsed(collapsed = !collapsed)
+    const onCLickHandler = () => setCollapsed(!collapsed)
 
     return <div>
         <AccordionTitle title={props.titleValue} onClickHandler={onCLickHandler}/>

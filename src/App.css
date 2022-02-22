@@ -1,5 +1,6 @@
 .container {
-    margin-left: 50px;
+    width: 600px;
+    margin: 20px auto;
     line-height: 30px;
 }
 
@@ -8,11 +9,13 @@ h1 {
 }
 
 .false-star {
+    margin: 2px;
     width: 20px;
     height: 20px;
 }
 
 .true-star {
+    margin: 2px;
     width: 20px;
     height: 20px;
 }

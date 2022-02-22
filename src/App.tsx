@@ -7,29 +7,28 @@ import SwitchButton from './components/SwitchButton';
 
 
 function App() {
-    console.log('App rendering')
+
     return (
         <div className={'container'}>
-            <PageTitle title={'React Course'} />
+            <PageTitle title={'React Course'}/>
             <div>
                 Article 1
-                <R value={3} />
+                <R/>
             </div>
-            <Accordion titleValue={'Learn'} />
-            <Accordion titleValue={'Create'} />
+            <Accordion titleValue={'Learn'}/>
+            <Accordion titleValue={'Create'}/>
             <div>
                 Article 2
-                <R value={5} />
-                <R value={4} />
-                <R value={3} />
-                <R value={2} />
-                <R value={1} />
-                <R value={0} />
+                <R/>
+                <R/>
+                <R/>
+                <R/>
+                <R/>
+                <R/>
             </div>
-            <SwitchButton />
-            <SwitchButton />
-            <SwitchButton />
-            <SwitchButton />
+            <SwitchButton/>
+            <SwitchButton/>
+            <SwitchButton/>
         </div>
     );
 }
