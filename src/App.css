@@ -1,0 +1,18 @@
+.container {
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+h1 {
+    color: darkred;
+}
+
+.false-star {
+    width: 20px;
+    height: 20px;
+}
+
+.true-star {
+    width: 20px;
+    height: 20px;
+}
