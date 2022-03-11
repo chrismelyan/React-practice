@@ -26,8 +26,8 @@ function App() {
                 <R/>
             </div>
             <SwitchButton/>
-            <SwitchButton/>
-            <SwitchButton/>
+            {/*<SwitchButton/>*/}
+            {/*<SwitchButton/>*/}
         </div>
     );
 }

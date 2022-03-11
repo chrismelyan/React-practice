@@ -34,6 +34,7 @@ const SwitchButton = (props: SwitchButtonType) => {
         backgroundColor: on === true ? 'green' : 'red'
     }
 
+
     return (
         <div>
             <button style={onStyle} onClick={() => setOn(on = true)}>On</button>
