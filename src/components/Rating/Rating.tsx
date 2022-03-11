@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import '../../App.css';
-import Star from "./Star";
+import Star, { ValueType } from "./Star";
 
 type RatingPropsType = {
+    defaultValue?: ValueType
 }
 
 export function Rating(props: RatingPropsType) {
-    let [value, setValue] = useState(0)
+    let [value, setValue] = useState<ValueType>(props.defaultValue ? props.defaultValue : 0);
 
     return (
         <div>
