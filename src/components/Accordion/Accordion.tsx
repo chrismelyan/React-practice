@@ -4,6 +4,7 @@ import AccordionTitle from "./AccordionTitle";
 
 type AccordionPropsType = {
     titleValue: string
+    items: string[]
 }
 
 function Accordion(props: AccordionPropsType) {
@@ -13,7 +14,7 @@ function Accordion(props: AccordionPropsType) {
 
     return <div>
         <AccordionTitle title={props.titleValue} onClickHandler={onCLickHandler}/>
-        {!collapsed && <AccordionBody/>}
+        {!collapsed && <AccordionBody items={props.items}/>}
     </div>
 }
 

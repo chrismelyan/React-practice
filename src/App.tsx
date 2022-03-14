@@ -15,8 +15,8 @@ function App() {
                 Are you enjoying the course?
                 <R/>
             </div>
-            <Accordion titleValue={'Learn'}/>
-            <Accordion titleValue={'Create'}/>
+            <Accordion titleValue={'Learn'} items={['react', 'css', 'js']}/>
+            <Accordion titleValue={'Create'} items={['todolist', 'social network', 'portfolio']}/>
             <div>
                 Challenging tasks
                 <R/>
