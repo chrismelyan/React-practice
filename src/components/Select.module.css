@@ -1,0 +1,13 @@
+.select {
+    text-align: center;
+    border: 1px solid black;
+    width: 80px;
+
+}
+
+.items {
+    display: block;
+    position: absolute;
+    padding: 2px;
+    border: 1px solid black;
+}
