@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 export default {
-    title: 'useState demo'
+    title: 'useState demo',
 }
 // useState не может принимать функцию как инициализованное значение, но он может принять функцию,
 // которая при вызове отдасть инициаллизованное значение, которое запишет useState и при чем useState сработает по принципу useMemo.

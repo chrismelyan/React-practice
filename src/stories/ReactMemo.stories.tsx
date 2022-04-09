@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 export default {
-    titel: 'React.memo'
+    title: 'React.memo',
 }
 
 const UsersSecret = (props: { users: Array<string> }) => {
