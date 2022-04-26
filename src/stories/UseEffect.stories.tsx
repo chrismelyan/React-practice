@@ -100,3 +100,28 @@ export const KeyTrackerExample = () => {
         Hello, counter: {text}
     </>
 }
+
+export const AsyncAwaitExample = () => {
+    function wait(ms: number) {
+        return new Promise((res) => {
+            setTimeout(() => {
+                res(ms)
+            }, ms)
+        })
+    }
+
+    async function run() {
+        await wait(1000)
+        console.log(1)
+        await wait(1000)
+        console.log(2)
+        await wait(1000)
+        console.log(3)
+    }
+
+    run()
+
+    return <>
+        Hello
+    </>
+}
